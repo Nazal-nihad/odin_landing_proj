@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* display: flex;
+  flex-direction: column; */
+}
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(74, 74, 74);
+  color: azure;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+#logo {
+  border-radius: 5px;
+  height: 50px;
+}
+.intro {
+  display: flex;
+
+  padding: 20px;
+  background-color: rgb(74, 74, 74);
+  color: azure;
+  padding: 50px;
+}
+.side_img {
+  padding: 0;
+  margin: 0;
+  width: 45%;
+  height: 45%;
+}
+.intro h1 {
+  font-size: 48px;
+  margin-bottom: 0;
+  line-height: 45px;
+  font-weight: 900px;
+}
+.intro p {
+  width: 65%;
+  flex-wrap: wrap;
+  text-align: left;
+  margin: 5px;
+  font-size: 23px;
+  font-family: "Times New Roman", Times, serif;
+  word-wrap: break-word;
+}
+.button {
+  padding: 5px 10px;
+  background-color: rgb(60, 153, 246);
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.images {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.figure {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  flex: 1;
+}
+figure img {
+  margin: 0;
+  padding: 0;
+  border: 3px solid rgb(86, 175, 253);
+  width: 110px;
+  height: 100px;
+  border-radius: 8px;
+  flex: 1;
+}
+figcaption {
+  text-align: center;
+}
+.images h1 {
+  font-size: 38px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  background-color: #a5a3a3;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 50px 0 20px 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+blockquote {
+  flex-wrap: wrap;
+  text-align: left;
+  font-size: 38px;
+  font-style: italic;
+  margin: 10px 0;
+  word-wrap: break-word;
+}
+
+.quotes p {
+  margin-left: 15em;
+  font-size: 28px;
+  padding: 0;
+}
+.last {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 50px;
+}
+
+.signup {
+  display: flex;
+  background-color: lightskyblue;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20%;
+  width: 55%;
+  height: 20%;
+  padding: 3% 10%;
+  border-radius: 8px;
+}
+.signup h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.sign-button {
+  color: white;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 10em;
+  height: 2em;
+  margin: auto;
+  border: 3px solid white;
+  border-radius: 3px;
+  background-color: lightskyblue;
+}
+.footer {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(74, 74, 74);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
